@@ -13,7 +13,7 @@ function App() {
       <Date />
       <Gifts />
       <Github />
-      <Copyright />
+      {/* <Copyright /> */}
     </div>
   );
 }
