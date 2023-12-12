@@ -16,7 +16,7 @@ function Header() {
       <div class="snowflake">❆</div>
       <div class="snowflake">❄</div>
       <div className="header-image scale-up-center">
-        <img src={headerImage} alt="header-picture" />
+        <img src={headerImage} alt="header" />
       </div>
       <div className="header-content slide-in-bottom">
         <div className="seprator-pic">

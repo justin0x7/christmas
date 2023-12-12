@@ -132,11 +132,11 @@ function Gifts() {
 
             {giftbox3 && (
               <div className="gift-container swirl-in-fwd">
-                <img src={ornament} className="ornament-gifts" />
+                <img alt="" src={ornament} className="ornament-gifts" />
                 {time <= 0 && <>
                   <h1>You Got A Sleigh !!</h1>
                   <div className="gift-container-image">
-                    <img src={sleigh} />
+                    <img alt="" src={sleigh} />
                   </div>
                 </>}
                 <h1>Please wait a bit more</h1>

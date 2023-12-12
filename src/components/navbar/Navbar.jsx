@@ -27,7 +27,7 @@ function Navbar() {
     <div className="navigation-bar">
       <div className="navigation-bar-links">
         <div className="navigation-bar-logo">
-          <img src={logo} />
+          <img alt="" src={logo} />
         </div>
         <div className="navigation-bar-mobile-logo">
           {/* <img src={mobileLogo} /> */}
