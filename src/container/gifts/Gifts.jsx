@@ -47,11 +47,11 @@ function Gifts() {
 
             {giftbox1 && (
               <div className="gift-container swirl-in-fwd">
-                <img src={ornament} className="ornament-gifts" />
+                <img alt="" src={ornament} className="ornament-gifts" />
                 {time <= 0 && <>
                   <h1>You Got A Santa Hat !!</h1>
                   <div className="gift-container-image">
-                    <img src={santaHat} />
+                    <img alt="" src={santaHat} />
                   </div>
                 </>}
                 <h1>Please wait a bit more</h1>
@@ -89,11 +89,11 @@ function Gifts() {
 
             {giftbox2 && (
               <div className="gift-container swirl-in-fwd">
-                <img src={ornament} className="ornament-gifts" />
+                <img alt="" src={ornament} className="ornament-gifts" />
                 {time <= 0 && <>
                   <h1>You Got Cookies !!</h1>
                   <div className="gift-container-image">
-                    <img src={cookies} />
+                    <img alt="" src={cookies} />
                   </div>
                 </>}
                 <h1>Please wait a bit more</h1>
