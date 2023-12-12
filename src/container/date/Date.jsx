@@ -1,8 +1,8 @@
 import React from "react";
-import "./date.css";
-import Clock from "../../components/countdown/Countdown";
-import jingleBell from "../../assets/jingleBell.png";
 import { Component } from "react/cjs/react.development";
+import jingleBell from "../../assets/jingleBell.png";
+import Clock from "../../components/countdown/Countdown";
+import "./date.css";
 
 class Date extends Component {
   constructor(props) {

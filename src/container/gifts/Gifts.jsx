@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import "./gifts.css";
-import gift from "../../assets/gift.png";
-import santaHat from "../../assets/santa-hat.png";
-import ornament from "../../assets/ornament.png";
-import sleigh from "../../assets/sleigh.png";
 import cookies from "../../assets/cookies.png";
+import gift from "../../assets/gift.png";
+import ornament from "../../assets/ornament.png";
+import santaHat from "../../assets/santa-hat.png";
+import sleigh from "../../assets/sleigh.png";
+import "./gifts.css";
 
 function Gifts() {
   const [giftbox1, setGiftbox1] = useState(false);

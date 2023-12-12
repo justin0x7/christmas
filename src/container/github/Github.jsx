@@ -1,7 +1,6 @@
 import React from "react";
-import "./github.css";
-import { FaInstagram, FaGithub } from "react-icons/fa";
 import profile from "../../assets/daniel.png";
+import "./github.css";
 
 function Github() {
   return (

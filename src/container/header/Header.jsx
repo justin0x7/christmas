@@ -1,7 +1,7 @@
 import React from "react";
-import "./header.css";
 import headerImage from "../../assets/headerImage.png";
 import seprator from "../../assets/seprator.png";
+import "./header.css";
 function Header() {
   return (
     <div className="header section-padding snowflakes">

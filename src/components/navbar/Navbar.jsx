@@ -1,8 +1,7 @@
 import React, { useState } from "react";
-import "./navbar.css";
-import { FaWindowClose, FaSnowflake } from "react-icons/fa";
+import { FaSnowflake, FaWindowClose } from "react-icons/fa";
 import logo from "../../assets/logo.png";
-import mobileLogo from "../../assets/mobileLogo.png";
+import "./navbar.css";
 
 const Menu = () => (
   <>
@@ -35,7 +34,6 @@ function Navbar() {
           <FaSnowflake
               color="#fff"
               size={27}
-              onClick={""}
             />
         </div>
         <div className="navigation-bar-items">

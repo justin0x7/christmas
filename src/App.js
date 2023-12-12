@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import { Copyright, Navbar } from "./components";
-import { Date, Header, Gifts, Github } from "./container";
+import { Date, Gifts, Github, Header } from "./container";
 
 function App() {
   return (
